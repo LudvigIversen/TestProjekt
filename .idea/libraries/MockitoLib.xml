@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="MockitoLib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../libb.zip!/MockitoLib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$PROJECT_DIR$/../libb.zip!/MockitoLib" recursive="false" />
+  </library>
+</component>
