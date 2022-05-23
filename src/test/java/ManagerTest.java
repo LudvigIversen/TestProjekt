@@ -92,7 +92,6 @@ public class ManagerTest {
         Timestamp time = new Timestamp(ong);
 
 
-
         when(str.getUserOldestBook(5555)).thenReturn(time);
 
         assertEquals(true, cut.checkIfAnyLentBooksAreLate(5555));

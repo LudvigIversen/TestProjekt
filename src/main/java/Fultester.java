@@ -24,7 +24,7 @@ public class Fultester {
 
             LibraryStore store = new LibraryStore();
             //store.returnBook(10);
-            //store.createUser(5555,"bbb", "aaa", "220526-1212", 1);
+            store.createUser(5555,"bbb", "aaa", "220526-1212", 1);
             //store.banUser(5555);
             //store.suspendUser(5555);
             //store.unsuspendUser(5555);

@@ -27,7 +27,6 @@ public class LibraryStore {
         return books;
     }
 
-
     public ArrayList<Book> getBookWithISBN(int ISBN) throws SQLException {
         ArrayList<Book> books = new ArrayList<Book>();
         try (Connection conn = DriverManager.getConnection(

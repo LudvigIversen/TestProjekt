@@ -35,7 +35,7 @@ public class LibraryManager {
     public boolean checkIfAnyLentBooksAreLate(int userID) throws SQLException, UnusableException {
         Timestamp timeOfLoanStamp = store.getUserOldestBook(userID);
         if(timeOfLoanStamp == null) {
-            throw new UnusableException();
+            return false;
         }
 
         long timeOfLoan = timeOfLoanStamp.getTime();
@@ -79,9 +79,13 @@ public class LibraryManager {
     public boolean checkIfUserShouldBeUnsuspended(int userID) throws SQLException {
         Timestamp timeOfLoanStamp = store.getUserSuspensionDate(userID);
         long timeOfLoan = timeOfLoanStamp.getTime();
+        if (timeOfLoan == 0) {
+            return false;
+        }
         Timestamp sysTime = new Timestamp(currentTime());
         long currentTime = sysTime.getTime();
         long diff = currentTime - timeOfLoan;
+
 
         if (diff > 1200000) {
             return true;

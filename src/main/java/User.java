@@ -31,15 +31,24 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
+        String niva = "";
+        if (level == 1) {
+            niva = "student";
+        } else if (level == 2) {
+            niva = "master";
+        } else if (level == 3) {
+            niva = "doktorand";
+        } else if (level == 4) {
+            niva = "lärare";
+        }
+        return
                 "userID=" + userID +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", personalNumber='" + personalNumber + '\'' +
-                ", level=" + level +
+                ", level=" + niva +
                 ", suscounter=" + suscounter +
-                ", suspended=" + suspended +
-                '}';
+                ", suspended=" + suspended;
     }
 
     public int getUserID() {
