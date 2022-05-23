@@ -67,16 +67,15 @@ public class ManagerTest {
     @Test
     void checkIfAnyLentBooksAreLateTest1() throws ParseException, SQLException, UnusableException {
         LibraryStore str = mock(LibraryStore.class);
-        LibraryManager cut = new LibraryManager(str);
-
-        DateFormat sdf = new SimpleDateFormat("dd-M-yyyy hh:mm:ss");
-        Date date = sdf.parse("18-5-2022 15:10:00");
-        long ong = date.getTime();
-        Timestamp time = new Timestamp(ong);
+        LibraryManager cut = mock(LibraryManager.class);
 
 
-
+        long timeOfLoan = 5000;
+        Timestamp time = new Timestamp(timeOfLoan);
         when(str.getUserOldestBook(5555)).thenReturn(time);
+
+        long curTime = 10000;
+        when(cut.currentTime()).thenReturn(curTime);
 
         assertEquals(false, cut.checkIfAnyLentBooksAreLate(5555));
 
@@ -99,6 +98,27 @@ public class ManagerTest {
         assertEquals(true, cut.checkIfAnyLentBooksAreLate(5555));
 
     }
+
+
+
+    /*
+    @Test
+    void checkIfAnyLentBooksAreLateTest2() throws ParseException, SQLException, UnusableException {
+        LibraryStore str = mock(LibraryStore.class);
+        LibraryManager cut = mock(LibraryManager.class);
+
+        long ong = 100;
+        Timestamp time = new Timestamp(ong);
+        when(str.getUserOldestBook(5555)).thenReturn(time);
+
+        long curTime = 13000000;
+        when(cut.currentTime()).thenReturn(curTime);
+
+        assertEquals(true, cut.checkIfAnyLentBooksAreLate(5555));
+
+    }
+
+     */
 
     @Test
     void checkIfAnyLentBooksAreLateTest3() throws ParseException, SQLException, UnusableException {

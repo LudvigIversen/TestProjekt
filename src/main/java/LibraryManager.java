@@ -27,6 +27,10 @@ public class LibraryManager {
 
     }
 
+    public long currentTime() {
+        return System.currentTimeMillis();
+    }
+
 
     public boolean checkIfAnyLentBooksAreLate(int userID) throws SQLException, UnusableException {
         Timestamp timeOfLoanStamp = store.getUserOldestBook(userID);
@@ -35,7 +39,7 @@ public class LibraryManager {
         }
 
         long timeOfLoan = timeOfLoanStamp.getTime();
-        Timestamp sysTime = new Timestamp(System.currentTimeMillis()); // ändra här så det är en metod som hämtar tiden, då kan vi mocka den i tester
+        Timestamp sysTime = new Timestamp(currentTime()); // ändra här så det är en metod som hämtar tiden, då kan vi mocka den i tester
         long currentTime = sysTime.getTime();
         long diff = currentTime - timeOfLoan;
 
@@ -75,7 +79,7 @@ public class LibraryManager {
     public boolean checkIfUserShouldBeUnsuspended(int userID) throws SQLException {
         Timestamp timeOfLoanStamp = store.getUserSuspensionDate(userID);
         long timeOfLoan = timeOfLoanStamp.getTime();
-        Timestamp sysTime = new Timestamp(System.currentTimeMillis());
+        Timestamp sysTime = new Timestamp(currentTime());
         long currentTime = sysTime.getTime();
         long diff = currentTime - timeOfLoan;
 
