@@ -414,39 +414,9 @@ public class ManagerTest {
 
     }
 
+
     @Test
     void registerUserTest1() throws SQLException, UnusableException {
-        LibraryStore str = mock(LibraryStore.class);
-        LibraryManager cut = new LibraryManager(str);
-
-        ArrayList<Integer> currentIDs = new ArrayList<Integer>();
-        ArrayList<String> currentPN = new ArrayList<String>();
-        ArrayList<String> bannedPN = new ArrayList<String>();
-
-        Integer Id1 = 1111;
-        Integer Id2 = 1293;
-        currentIDs.add(Id1);
-        currentIDs.add(Id2);
-
-        String curPN1 = "010101-1234";
-        String curPN2 = "010201-1234";
-        currentPN.add(curPN1);
-        currentPN.add(curPN2);
-
-        String bannedPN1 = "123456-7890";
-        String bannedPN2 = "123456-7890";
-        bannedPN.add(bannedPN1);
-        bannedPN.add(bannedPN2);
-
-        when(str.getAllUserID()).thenReturn(currentIDs);
-        when(str.getUserPersonalNumbers()).thenReturn(currentPN);
-        when(str.getBannedUsersPersonalNumber()).thenReturn(bannedPN);
-
-        assertEquals(2, cut.registerUser(2222,"aaaa","bbbb", "128128-0000", 2));
-    }
-
-    @Test
-    void registerUserTest2() throws SQLException, UnusableException {
         LibraryStore str = mock(LibraryStore.class);
         LibraryManager cut = new LibraryManager(str);
 
@@ -477,7 +447,7 @@ public class ManagerTest {
     }
 
     @Test
-    void registerUserTest3() throws SQLException, UnusableException {
+    void registerUserTest2() throws SQLException, UnusableException {
         LibraryStore str = mock(LibraryStore.class);
         LibraryManager cut = new LibraryManager(str);
 
@@ -508,7 +478,7 @@ public class ManagerTest {
     }
 
     @Test
-    void registerUserTest4() throws SQLException, UnusableException {
+    void registerUserTest3() throws SQLException, UnusableException {
         LibraryStore str = mock(LibraryStore.class);
         LibraryManager cut = new LibraryManager(str);
 
@@ -539,7 +509,7 @@ public class ManagerTest {
     }
 
     @Test
-    void registerUserTest5() throws SQLException, UnusableException {
+    void registerUserTest4() throws SQLException, UnusableException {
         LibraryStore str = mock(LibraryStore.class);
         LibraryManager cut = new LibraryManager(str);
 
@@ -570,7 +540,7 @@ public class ManagerTest {
     }
 
     @Test
-    void registerUserTest6() throws SQLException, UnusableException {
+    void registerUserTest5() throws SQLException, UnusableException {
         LibraryStore str = mock(LibraryStore.class);
         LibraryManager cut = new LibraryManager(str);
 
@@ -601,7 +571,7 @@ public class ManagerTest {
     }
 
     @Test
-    void registerUserTest7() throws SQLException, UnusableException {
+    void registerUserTest6() throws SQLException, UnusableException {
         LibraryStore str = mock(LibraryStore.class);
         LibraryManager cut = new LibraryManager(str);
 
@@ -632,7 +602,7 @@ public class ManagerTest {
     }
 
     @Test
-    void registerUserTest8() throws SQLException, UnusableException {
+    void registerUserTest7() throws SQLException, UnusableException {
         LibraryStore str = mock(LibraryStore.class);
         LibraryManager cut = new LibraryManager(str);
 
@@ -663,7 +633,7 @@ public class ManagerTest {
     }
 
     @Test
-    void registerUserTest9() throws SQLException, UnusableException {
+    void registerUserTest8() throws SQLException, UnusableException {
         LibraryStore str = mock(LibraryStore.class);
         LibraryManager cut = new LibraryManager(str);
 
@@ -692,11 +662,5 @@ public class ManagerTest {
 
         assertThrows(UnusableException.class, () -> cut.registerUser(10000,"aaaa","bbbb", "000000-00000", 2));
     }
-
-
-
-
-
-
 
 }
