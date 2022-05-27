@@ -65,6 +65,31 @@ public class ManagerTest {
     }
 
     @Test
+    void checkIfUserCanLendTest3() throws SQLException, UnusableException {
+        LibraryStore str = mock(LibraryStore.class);
+        LibraryManager cut = new LibraryManager(str);
+
+        when(str.getUser(5555)).thenReturn(
+                new User(5555, "aaa", "bbb", "010101-5555", 2, 0, false)
+        );
+
+        ArrayList<Book> books = new ArrayList<Book>();
+        Book one = new Book(1, 123456, "aaa","bbb" );
+        Book two = new Book(2, 123456, "aaa","bbb" );
+        Book three = new Book(2, 123456, "aaa","bbb" );
+
+        books.add(one);
+        books.add(two);
+        books.add(three);
+
+        when(str.getUserBooks(5555)).thenReturn(books);
+
+        assertEquals(true, cut.checkIfUserCanLend(5555));
+
+
+    }
+
+    @Test
     void checkIfAnyLentBooksAreLateTest1() throws ParseException, SQLException, UnusableException {
         LibraryStore str = mock(LibraryStore.class);
         LibraryManager cut = mock(LibraryManager.class);
@@ -84,12 +109,21 @@ public class ManagerTest {
     @Test
     void checkIfAnyLentBooksAreLateTest2() throws ParseException, SQLException, UnusableException {
         LibraryStore str = mock(LibraryStore.class);
-        LibraryManager cut = new LibraryManager(str);
-
+        LibraryManager cut = mock(LibraryManager.class);
+        /*
         DateFormat sdf = new SimpleDateFormat("dd-M-yyyy hh:mm:ss");
         Date date = sdf.parse("18-5-2022 14:10:00");
         long ong = date.getTime();
         Timestamp time = new Timestamp(ong);
+
+         */
+        long ong = 100;
+        Timestamp time = new Timestamp(ong);
+        when(str.getUserOldestBook(5555)).thenReturn(time);
+
+        long curTime = 13000000;
+        when(cut.currentTime()).thenReturn(curTime);
+
 
 
         when(str.getUserOldestBook(5555)).thenReturn(time);
@@ -97,8 +131,6 @@ public class ManagerTest {
         assertEquals(true, cut.checkIfAnyLentBooksAreLate(5555));
 
     }
-
-
 
     /*
     @Test
@@ -119,18 +151,6 @@ public class ManagerTest {
 
      */
 
-    @Test
-    void checkIfAnyLentBooksAreLateTest3() throws ParseException, SQLException, UnusableException {
-        LibraryStore str = mock(LibraryStore.class);
-        LibraryManager cut = new LibraryManager(str);
-
-        Timestamp time = null;
-
-        when(str.getUserOldestBook(5555)).thenReturn(time);
-
-        assertThrows(UnusableException.class, () -> cut.checkIfAnyLentBooksAreLate(5555));
-
-    }
 
     @Test
     void lendBookTest1() throws SQLException {
@@ -217,7 +237,8 @@ public class ManagerTest {
     }
 
     @Test
-    void checkIfUserShouldBeUnsuspendedTest1() throws ParseException, SQLException {
+    void checkIfUserShouldBeUnsuspendedTest1() throws ParseException, SQLException { // samma fel här med testet,
+        /*
         LibraryStore str = mock(LibraryStore.class);
         LibraryManager cut = new LibraryManager(str);
 
@@ -226,16 +247,28 @@ public class ManagerTest {
         long ong = date.getTime();
         Timestamp time = new Timestamp(ong);
 
+         */
+        LibraryStore str = mock(LibraryStore.class);
+        LibraryManager cut = mock(LibraryManager.class);
 
 
+        long timeOfLoan = 5000;
+        Timestamp time = new Timestamp(timeOfLoan);
         when(str.getUserSuspensionDate(5555)).thenReturn(time);
+
+        long curTime = 400000;
+        when(cut.currentTime()).thenReturn(curTime);
+
+
+
 
         assertEquals(true, cut.checkIfUserShouldBeUnsuspended(5555));
 
     }
 
     @Test
-    void checkIfUserShouldBeUnsuspendedTest2() throws ParseException, SQLException {
+    void checkIfUserShouldBeUnsuspendedTest2() throws ParseException, SQLException { // samma grej som innan, funkar på detta håller men inte andra
+        /*
         LibraryStore str = mock(LibraryStore.class);
         LibraryManager cut = new LibraryManager(str);
 
@@ -247,6 +280,19 @@ public class ManagerTest {
 
 
         when(str.getUserSuspensionDate(5555)).thenReturn(time);
+
+         */
+
+        LibraryStore str = mock(LibraryStore.class);
+        LibraryManager cut = mock(LibraryManager.class);
+
+
+        long timeOfLoan = 4000000;
+        Timestamp time = new Timestamp(timeOfLoan);
+        when(str.getUserSuspensionDate(5555)).thenReturn(time);
+
+        long curTime = 4000;
+        when(cut.currentTime()).thenReturn(curTime);
 
         assertEquals(false, cut.checkIfUserShouldBeUnsuspended(5555));
 

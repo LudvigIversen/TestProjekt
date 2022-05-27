@@ -24,7 +24,6 @@ public class LibraryManager {
             return false;
         }
 
-
     }
 
     public long currentTime() {
@@ -32,7 +31,7 @@ public class LibraryManager {
     }
 
 
-    public boolean checkIfAnyLentBooksAreLate(int userID) throws SQLException, UnusableException {
+    public boolean checkIfAnyLentBooksAreLate(int userID) throws SQLException {
         Timestamp timeOfLoanStamp = store.getUserOldestBook(userID);
         if(timeOfLoanStamp == null) {
             return false;
@@ -43,7 +42,7 @@ public class LibraryManager {
         long currentTime = sysTime.getTime();
         long diff = currentTime - timeOfLoan;
 
-        if (diff < 1200000) {
+        if (diff < 300000) {
             return false;
         } else {
             return true;
@@ -87,7 +86,7 @@ public class LibraryManager {
         long diff = currentTime - timeOfLoan;
 
 
-        if (diff > 1200000) {
+        if (diff > 300000) {
             return true;
         } else {
             return false;
