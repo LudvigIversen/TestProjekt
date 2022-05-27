@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
-public class LibraryManager {
+public class LibraryManager implements ILibraryManager{
     LibraryStore store = null;
 
     private static Logger logger = LogManager.getLogManager().getLogger(LibraryManager.class.getName());

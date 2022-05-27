@@ -1,7 +1,7 @@
 import java.sql.*;
 import java.util.ArrayList;
 
-public class LibraryStore {
+public class LibraryStore implements ILibraryStore {
 
     public ArrayList<Book> getBookWithTitle(String title) throws SQLException {
         ArrayList<Book> books = new ArrayList<Book>();
@@ -49,12 +49,6 @@ public class LibraryStore {
 
         return books;
     }
-
-
-    public ArrayList<String> getBooksAndAvailability() {
-        return new ArrayList<String>();
-    }
-
 
     public User getUser(int userID) throws SQLException {
         User user = null;
