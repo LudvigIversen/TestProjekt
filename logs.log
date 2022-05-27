@@ -265,4 +265,20 @@
   2022-05-27 12:58:23 INFO  MainApp:31 - Användaren 5513 är inte avstängd
   2022-05-27 12:58:23 INFO  MainApp:50 - Användaren 5513 loggar in
   2022-05-27 12:58:26 INFO  MainApp:135 - Användaren 5513 stänger av
+  2022-05-27 13:04:21 INFO  MainApp:323 - Programmet startar
+  2022-05-27 13:04:24 INFO  MainApp:357 - Användare väljer att registrera sig
+  2022-05-27 13:04:24 INFO  MainApp:258 - Registrering av ny användare startas
+  2022-05-27 13:04:35 ERROR MainApp:302 - Användare med personnummer: 010524-4735 har redan ett konto
+  2022-05-27 13:04:35 INFO  MainApp:323 - Programmet startar
+  2022-05-27 13:04:43 INFO  MainApp:336 - Användare väljer att logga in
+  2022-05-27 13:04:45 INFO  MainApp:339 - Användare skriver in ID: 2930
+  2022-05-27 13:04:45 INFO  MainApp:341 - Student inloggning
+  2022-05-27 13:04:45 ERROR MainApp:348 - Användare ID: 2930 fanns inte
+  2022-05-27 13:05:25 INFO  MainApp:323 - Programmet startar
+  2022-05-27 13:05:27 INFO  MainApp:336 - Användare väljer att logga in
+  2022-05-27 13:05:28 INFO  MainApp:339 - Användare skriver in ID: 2930
+  2022-05-27 13:05:28 INFO  MainApp:341 - Student inloggning
+  2022-05-27 13:05:29 ERROR MainApp:348 - Användare ID: 2930 fanns inte
+  2022-05-27 13:05:29 INFO  MainApp:323 - Programmet startar
+  2022-05-27 13:05:31 INFO  MainApp:360 - Systemet stängs av
   

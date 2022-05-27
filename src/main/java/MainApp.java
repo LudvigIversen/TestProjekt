@@ -346,7 +346,7 @@ public class MainApp {
                 } else {
                     System.out.println("Det finns ingen registrerad användare med detta ID!");
                     logger.error("Användare ID: " + userID + " fanns inte");
-                    System.exit(0);
+                    main(null);
                 }
             }  else if (userID > 10000) {
                 logger.info("Användare loggar in som bibliotekarie");

@@ -265,11 +265,11 @@ public class ManagerTest {
         LibraryStore str = mock(LibraryStore.class);
         LibraryManager cut = new LibraryManager(str);
 
-        long timeOfLoan = 73000;
+        long timeOfLoan = 730;
         Timestamp time = new Timestamp(timeOfLoan);
         when(str.getUserOldestBook(5555)).thenReturn(time);
 
-        long curTime = 100000;
+        long curTime = 1000;
         when(str.currentTime()).thenReturn(curTime);
 
 
@@ -407,7 +407,7 @@ public class ManagerTest {
         Timestamp time = new Timestamp(timeOfLoan);
         when(str.getUserSuspensionDate(5555)).thenReturn(time);
 
-        long curTime = 4000;
+        long curTime = 1000;
         when(str.currentTime()).thenReturn(curTime);
 
         assertEquals(false, cut.checkIfUserShouldBeUnsuspended(5555));
@@ -442,7 +442,7 @@ public class ManagerTest {
         when(str.getUserPersonalNumbers()).thenReturn(currentPN);
         when(str.getBannedUsersPersonalNumber()).thenReturn(bannedPN);
 
-        assertEquals(3, cut.registerUser(2222,"aaaa","bbbb", "128128-0000", 2));
+        assertEquals(2, cut.registerUser(2222,"aaaa","bbbb", "128128-0000", 2));
     }
 
     @Test
@@ -504,7 +504,7 @@ public class ManagerTest {
         when(str.getUserPersonalNumbers()).thenReturn(currentPN);
         when(str.getBannedUsersPersonalNumber()).thenReturn(bannedPN);
 
-        assertEquals(1, cut.registerUser(1111,"aaaa","bbbb", "000000-0000", 2));
+        assertEquals(2, cut.registerUser(1111,"aaaa","bbbb", "000000-0000", 2));
     }
 
     @Test
@@ -535,7 +535,7 @@ public class ManagerTest {
         when(str.getUserPersonalNumbers()).thenReturn(currentPN);
         when(str.getBannedUsersPersonalNumber()).thenReturn(bannedPN);
 
-        assertEquals(2, cut.registerUser(9098,"aaaa","bbbb", "010201-1234", 2));
+        assertEquals(1, cut.registerUser(9098,"aaaa","bbbb", "010201-1234", 2));
     }
 
     @Test
