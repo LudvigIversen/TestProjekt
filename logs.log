@@ -1,8 +1,268 @@
-2022-05-23 10:38:13 INFO  Fultester:48 - Memes
-  2022-05-23 13:52:56 INFO  Fultester:48 - Memes
-  2022-05-23 13:57:06 INFO  MainApp:75 - Hej
-  2022-05-23 13:58:33 INFO  MainApp:75 - Hej
-  2022-05-23 14:30:22 INFO  MainApp:115 - Hej
-  2022-05-23 14:31:32 INFO  MainApp:115 - Hej
-  2022-05-23 15:58:52 INFO  Fultester:48 - Memes
+
+  2022-05-27 11:57:14 INFO  MainApp:309 - Programmet startar
+  2022-05-27 11:57:16 INFO  MainApp:322 - Användare väljer att logga in
+  2022-05-27 11:57:18 INFO  MainApp:325 - Användare skriver in ID: 5555
+  2022-05-27 11:57:18 INFO  MainApp:327 - Student inloggning
+  2022-05-27 11:57:19 INFO  MainApp:330 - Användar ID: 5555 fanns
+  2022-05-27 11:57:19 INFO  MainApp:22 - Användaren 5555 är avstängd
+  2022-05-27 11:57:19 INFO  MainApp:26 - Användaren 5555 är inte längre avstängd
+  2022-05-27 11:58:21 INFO  MainApp:309 - Programmet startar
+  2022-05-27 11:58:39 INFO  MainApp:322 - Användare väljer att logga in
+  2022-05-27 11:58:41 INFO  MainApp:325 - Användare skriver in ID: 5555
+  2022-05-27 11:58:41 INFO  MainApp:327 - Student inloggning
+  2022-05-27 11:58:41 INFO  MainApp:330 - Användar ID: 5555 fanns
+  2022-05-27 11:58:42 INFO  MainApp:22 - Användaren 5555 är avstängd
+  2022-05-27 11:58:42 INFO  MainApp:26 - Användaren 5555 är inte längre avstängd
+  2022-05-27 11:59:01 INFO  MainApp:309 - Programmet startar
+  2022-05-27 12:00:36 INFO  MainApp:310 - Programmet startar
+  2022-05-27 12:00:38 INFO  MainApp:323 - Användare väljer att logga in
+  2022-05-27 12:00:40 INFO  MainApp:326 - Användare skriver in ID: 5555
+  2022-05-27 12:00:40 INFO  MainApp:328 - Student inloggning
+  2022-05-27 12:00:41 INFO  MainApp:331 - Användar ID: 5555 fanns
+  2022-05-27 12:00:41 INFO  MainApp:22 - Användaren 5555 är avstängd
+  2022-05-27 12:00:41 INFO  MainApp:26 - Användaren 5555 är inte längre avstängd
+  2022-05-27 12:00:49 INFO  MainApp:310 - Programmet startar
+  2022-05-27 12:00:51 INFO  MainApp:323 - Användare väljer att logga in
+  2022-05-27 12:00:53 INFO  MainApp:326 - Användare skriver in ID: 5555
+  2022-05-27 12:00:53 INFO  MainApp:328 - Student inloggning
+  2022-05-27 12:00:54 INFO  MainApp:331 - Användar ID: 5555 fanns
+  2022-05-27 12:00:54 INFO  MainApp:34 - Användaren 5555 är inte avstängd
+  2022-05-27 12:00:54 INFO  MainApp:51 - Användaren 5555 loggar in
+  2022-05-27 12:01:16 INFO  MainApp:137 - Användaren 5555 stänger av
+  2022-05-27 12:02:14 INFO  MainApp:312 - Programmet startar
+  2022-05-27 12:02:20 INFO  MainApp:325 - Användare väljer att logga in
+  2022-05-27 12:02:21 INFO  MainApp:328 - Användare skriver in ID: 100000
+  2022-05-27 12:02:21 INFO  MainApp:341 - Användare loggar in som bibliotekarie
+  2022-05-27 12:02:21 INFO  MainApp:149 - Bibliotekarien loggar in
+  2022-05-27 12:02:25 INFO  MainApp:221 - Bibliotekarien förösker stänga av en användare
+  2022-05-27 12:02:29 INFO  MainApp:226 - Bibliotekarien försöker stänga av användaren: 6789
+  2022-05-27 12:02:29 INFO  MainApp:239 - 6789 är nu bannad
+  2022-05-27 12:04:29 INFO  MainApp:312 - Programmet startar
+  2022-05-27 12:04:42 INFO  MainApp:325 - Användare väljer att logga in
+  2022-05-27 12:04:44 INFO  MainApp:328 - Användare skriver in ID: 100000
+  2022-05-27 12:04:44 INFO  MainApp:341 - Användare loggar in som bibliotekarie
+  2022-05-27 12:04:44 INFO  MainApp:149 - Bibliotekarien loggar in
+  2022-05-27 12:04:47 INFO  MainApp:221 - Bibliotekarien förösker stänga av en användare
+  2022-05-27 12:04:51 INFO  MainApp:226 - Bibliotekarien försöker stänga av användaren: 6789
+  2022-05-27 12:04:51 INFO  MainApp:239 - 6789 är nu bannad
+  2022-05-27 12:05:46 INFO  MainApp:312 - Programmet startar
+  2022-05-27 12:05:49 INFO  MainApp:325 - Användare väljer att logga in
+  2022-05-27 12:05:52 INFO  MainApp:328 - Användare skriver in ID: 100000
+  2022-05-27 12:05:52 INFO  MainApp:341 - Användare loggar in som bibliotekarie
+  2022-05-27 12:05:52 INFO  MainApp:149 - Bibliotekarien loggar in
+  2022-05-27 12:05:53 INFO  MainApp:221 - Bibliotekarien förösker stänga av en användare
+  2022-05-27 12:05:55 INFO  MainApp:226 - Bibliotekarien försöker stänga av användaren: 6789
+  2022-05-27 12:05:55 INFO  MainApp:230 - 6789 har inga försenade böcker och behövs inte bannas
+  2022-05-27 12:06:30 INFO  MainApp:312 - Programmet startar
+  2022-05-27 12:06:36 INFO  MainApp:325 - Användare väljer att logga in
+  2022-05-27 12:06:37 INFO  MainApp:328 - Användare skriver in ID: 6789
+  2022-05-27 12:06:37 INFO  MainApp:330 - Student inloggning
+  2022-05-27 12:06:38 INFO  MainApp:333 - Användar ID: 6789 fanns
+  2022-05-27 12:06:38 INFO  MainApp:36 - Användaren 6789 är inte avstängd
+  2022-05-27 12:06:38 INFO  MainApp:53 - Användaren 6789 loggar in
+  2022-05-27 12:06:41 INFO  MainApp:68 - Användaren 6789 försöker låna böcker
+  2022-05-27 12:06:42 INFO  MainApp:71 - Användaren 6789 söker efter boken: Lasten
+  2022-05-27 12:06:52 INFO  MainApp:139 - Användaren 6789 stänger av
+  2022-05-27 12:08:43 INFO  MainApp:312 - Programmet startar
+  2022-05-27 12:08:45 INFO  MainApp:325 - Användare väljer att logga in
+  2022-05-27 12:08:47 INFO  MainApp:328 - Användare skriver in ID: 6789
+  2022-05-27 12:08:47 INFO  MainApp:330 - Student inloggning
+  2022-05-27 12:08:47 INFO  MainApp:333 - Användar ID: 6789 fanns
+  2022-05-27 12:08:47 INFO  MainApp:36 - Användaren 6789 är inte avstängd
+  2022-05-27 12:08:47 INFO  MainApp:53 - Användaren 6789 loggar in
+  2022-05-27 12:08:49 INFO  MainApp:68 - Användaren 6789 försöker låna böcker
+  2022-05-27 12:08:51 INFO  MainApp:71 - Användaren 6789 söker efter boken: Lasten
+  2022-05-27 12:08:53 INFO  MainApp:94 - Användaren 6789 lånar boken: 10
+  2022-05-27 12:09:00 INFO  MainApp:99 - Användaren 6789 vill lämna tillbaka böcker
+  2022-05-27 12:09:06 INFO  MainApp:139 - Användaren 6789 stänger av
+  2022-05-27 12:11:43 INFO  MainApp:312 - Programmet startar
+  2022-05-27 12:11:46 INFO  MainApp:325 - Användare väljer att logga in
+  2022-05-27 12:11:55 INFO  MainApp:328 - Användare skriver in ID: 5555
+  2022-05-27 12:11:55 INFO  MainApp:330 - Student inloggning
+  2022-05-27 12:11:56 INFO  MainApp:333 - Användar ID: 5555 fanns
+  2022-05-27 12:11:56 INFO  MainApp:36 - Användaren 5555 är inte avstängd
+  2022-05-27 12:11:56 INFO  MainApp:53 - Användaren 5555 loggar in
+  2022-05-27 12:12:12 INFO  MainApp:68 - Användaren 5555 försöker låna böcker
+  2022-05-27 12:12:13 INFO  MainApp:71 - Användaren 5555 söker efter boken: Lasten
+  2022-05-27 12:12:15 INFO  MainApp:94 - Användaren 5555 lånar boken: 12
+  2022-05-27 12:12:17 INFO  MainApp:139 - Användaren 5555 stänger av
+  2022-05-27 12:14:58 INFO  MainApp:312 - Programmet startar
+  2022-05-27 12:15:00 INFO  MainApp:325 - Användare väljer att logga in
+  2022-05-27 12:15:03 INFO  MainApp:328 - Användare skriver in ID: 100000
+  2022-05-27 12:15:03 INFO  MainApp:341 - Användare loggar in som bibliotekarie
+  2022-05-27 12:15:03 INFO  MainApp:149 - Bibliotekarien loggar in
+  2022-05-27 12:15:07 INFO  MainApp:221 - Bibliotekarien förösker stänga av en användare
+  2022-05-27 12:15:10 INFO  MainApp:226 - Bibliotekarien försöker stänga av användaren: 6789
+  2022-05-27 12:15:10 INFO  MainApp:239 - 6789 är nu bannad
+  2022-05-27 12:15:24 INFO  MainApp:312 - Programmet startar
+  2022-05-27 12:15:27 INFO  MainApp:325 - Användare väljer att logga in
+  2022-05-27 12:15:29 INFO  MainApp:328 - Användare skriver in ID: 6789
+  2022-05-27 12:15:29 INFO  MainApp:330 - Student inloggning
+  2022-05-27 12:15:29 ERROR MainApp:337 - Användare ID: 6789 fanns inte
+  2022-05-27 12:15:44 INFO  MainApp:312 - Programmet startar
+  2022-05-27 12:15:46 INFO  MainApp:325 - Användare väljer att logga in
+  2022-05-27 12:15:48 INFO  MainApp:328 - Användare skriver in ID: 5555
+  2022-05-27 12:15:48 INFO  MainApp:330 - Student inloggning
+  2022-05-27 12:15:49 INFO  MainApp:333 - Användar ID: 5555 fanns
+  2022-05-27 12:15:49 INFO  MainApp:36 - Användaren 5555 är inte avstängd
+  2022-05-27 12:15:49 INFO  MainApp:53 - Användaren 5555 loggar in
+  2022-05-27 12:15:51 INFO  MainApp:139 - Användaren 5555 stänger av
+  2022-05-27 12:16:53 INFO  MainApp:312 - Programmet startar
+  2022-05-27 12:16:55 INFO  MainApp:325 - Användare väljer att logga in
+  2022-05-27 12:16:58 INFO  MainApp:328 - Användare skriver in ID: 5555
+  2022-05-27 12:16:58 INFO  MainApp:330 - Student inloggning
+  2022-05-27 12:16:59 INFO  MainApp:333 - Användar ID: 5555 fanns
+  2022-05-27 12:16:59 INFO  MainApp:36 - Användaren 5555 är inte avstängd
+  2022-05-27 12:16:59 INFO  MainApp:40 - Användaren 5555 har försenade böcker
+  2022-05-27 12:16:59 INFO  MainApp:43 - Användaren 5555 blir avstängd
+  2022-05-27 12:17:05 INFO  MainApp:139 - Användaren 5555 stänger av
+  2022-05-27 12:18:15 INFO  MainApp:311 - Programmet startar
+  2022-05-27 12:18:17 INFO  MainApp:324 - Användare väljer att logga in
+  2022-05-27 12:18:19 INFO  MainApp:327 - Användare skriver in ID: 6789
+  2022-05-27 12:18:19 INFO  MainApp:329 - Student inloggning
+  2022-05-27 12:18:20 ERROR MainApp:336 - Användare ID: 6789 fanns inte
+  2022-05-27 12:18:28 INFO  MainApp:311 - Programmet startar
+  2022-05-27 12:18:32 INFO  MainApp:324 - Användare väljer att logga in
+  2022-05-27 12:18:34 INFO  MainApp:327 - Användare skriver in ID: 5555
+  2022-05-27 12:18:34 INFO  MainApp:329 - Student inloggning
+  2022-05-27 12:18:35 INFO  MainApp:332 - Användar ID: 5555 fanns
+  2022-05-27 12:18:35 INFO  MainApp:23 - Användaren 5555 är avstängd
+  2022-05-27 12:18:35 INFO  MainApp:27 - Användaren 5555 är inte längre avstängd
+  2022-05-27 12:18:35 INFO  MainApp:35 - Användaren 5555 är inte avstängd
+  2022-05-27 12:18:35 INFO  MainApp:52 - Användaren 5555 loggar in
+  2022-05-27 12:18:43 INFO  MainApp:98 - Användaren 5555 vill lämna tillbaka böcker
+  2022-05-27 12:18:43 INFO  MainApp:101 - Användaren 5555 kan inte returnera böcker då det inte finns några lånade
+  2022-05-27 12:18:47 INFO  MainApp:138 - Användaren 5555 stänger av
+  2022-05-27 12:19:22 INFO  MainApp:311 - Programmet startar
+  2022-05-27 12:19:24 INFO  MainApp:324 - Användare väljer att logga in
+  2022-05-27 12:19:27 INFO  MainApp:327 - Användare skriver in ID: 5555
+  2022-05-27 12:19:27 INFO  MainApp:329 - Student inloggning
+  2022-05-27 12:19:28 INFO  MainApp:332 - Användar ID: 5555 fanns
+  2022-05-27 12:19:28 INFO  MainApp:35 - Användaren 5555 är inte avstängd
+  2022-05-27 12:19:28 INFO  MainApp:52 - Användaren 5555 loggar in
+  2022-05-27 12:19:30 INFO  MainApp:67 - Användaren 5555 försöker låna böcker
+  2022-05-27 12:19:31 INFO  MainApp:70 - Användaren 5555 söker efter boken: Lasten
+  2022-05-27 12:19:33 INFO  MainApp:93 - Användaren 5555 lånar boken: 10
+  2022-05-27 12:19:34 INFO  MainApp:138 - Användaren 5555 stänger av
+  2022-05-27 12:19:43 INFO  MainApp:311 - Programmet startar
+  2022-05-27 12:19:46 INFO  MainApp:324 - Användare väljer att logga in
+  2022-05-27 12:19:48 INFO  MainApp:327 - Användare skriver in ID: 5555
+  2022-05-27 12:19:48 INFO  MainApp:329 - Student inloggning
+  2022-05-27 12:19:48 INFO  MainApp:332 - Användar ID: 5555 fanns
+  2022-05-27 12:19:48 INFO  MainApp:35 - Användaren 5555 är inte avstängd
+  2022-05-27 12:19:48 INFO  MainApp:39 - Användaren 5555 har försenade böcker
+  2022-05-27 12:19:48 INFO  MainApp:42 - Användaren 5555 blir avstängd
+  2022-05-27 12:20:49 INFO  MainApp:138 - Användaren 5555 stänger av
+  2022-05-27 12:21:02 INFO  MainApp:313 - Programmet startar
+  2022-05-27 12:21:04 INFO  MainApp:326 - Användare väljer att logga in
+  2022-05-27 12:21:06 INFO  MainApp:329 - Användare skriver in ID: 5555
+  2022-05-27 12:21:06 INFO  MainApp:331 - Student inloggning
+  2022-05-27 12:21:06 INFO  MainApp:334 - Användar ID: 5555 fanns
+  2022-05-27 12:21:06 INFO  MainApp:23 - Användaren 5555 är avstängd
+  2022-05-27 12:21:06 INFO  MainApp:27 - Användaren 5555 är inte längre avstängd
+  2022-05-27 12:21:06 INFO  MainApp:35 - Användaren 5555 är inte avstängd
+  2022-05-27 12:21:06 INFO  MainApp:54 - Användaren 5555 loggar in
+  2022-05-27 12:21:11 INFO  MainApp:140 - Användaren 5555 stänger av
+  2022-05-27 12:21:23 INFO  MainApp:313 - Programmet startar
+  2022-05-27 12:21:29 INFO  MainApp:326 - Användare väljer att logga in
+  2022-05-27 12:21:31 INFO  MainApp:329 - Användare skriver in ID: 5555
+  2022-05-27 12:21:31 INFO  MainApp:331 - Student inloggning
+  2022-05-27 12:21:32 INFO  MainApp:334 - Användar ID: 5555 fanns
+  2022-05-27 12:21:32 INFO  MainApp:35 - Användaren 5555 är inte avstängd
+  2022-05-27 12:21:32 INFO  MainApp:54 - Användaren 5555 loggar in
+  2022-05-27 12:21:35 INFO  MainApp:69 - Användaren 5555 försöker låna böcker
+  2022-05-27 12:21:36 INFO  MainApp:72 - Användaren 5555 söker efter boken: Lasten
+  2022-05-27 12:21:38 INFO  MainApp:95 - Användaren 5555 lånar boken: 10
+  2022-05-27 12:21:39 INFO  MainApp:140 - Användaren 5555 stänger av
+  2022-05-27 12:21:46 INFO  MainApp:313 - Programmet startar
+  2022-05-27 12:21:48 INFO  MainApp:326 - Användare väljer att logga in
+  2022-05-27 12:21:51 INFO  MainApp:329 - Användare skriver in ID: 5555
+  2022-05-27 12:21:51 INFO  MainApp:331 - Student inloggning
+  2022-05-27 12:21:52 INFO  MainApp:334 - Användar ID: 5555 fanns
+  2022-05-27 12:21:52 INFO  MainApp:35 - Användaren 5555 är inte avstängd
+  2022-05-27 12:21:52 INFO  MainApp:39 - Användaren 5555 har försenade böcker
+  2022-05-27 12:21:52 INFO  MainApp:42 - Användaren 5555 blir avstängd
+  2022-05-27 12:22:00 INFO  MainApp:313 - Programmet startar
+  2022-05-27 12:22:04 INFO  MainApp:326 - Användare väljer att logga in
+  2022-05-27 12:22:08 INFO  MainApp:329 - Användare skriver in ID: 5555
+  2022-05-27 12:22:08 INFO  MainApp:331 - Student inloggning
+  2022-05-27 12:22:09 INFO  MainApp:334 - Användar ID: 5555 fanns
+  2022-05-27 12:22:09 INFO  MainApp:23 - Användaren 5555 är avstängd
+  2022-05-27 12:22:09 INFO  MainApp:27 - Användaren 5555 är inte längre avstängd
+  2022-05-27 12:22:09 INFO  MainApp:35 - Användaren 5555 är inte avstängd
+  2022-05-27 12:22:09 INFO  MainApp:54 - Användaren 5555 loggar in
+  2022-05-27 12:22:33 INFO  MainApp:69 - Användaren 5555 försöker låna böcker
+  2022-05-27 12:22:35 INFO  MainApp:72 - Användaren 5555 söker efter boken: Lasten
+  2022-05-27 12:22:37 INFO  MainApp:95 - Användaren 5555 lånar boken: 10
+  2022-05-27 12:22:38 INFO  MainApp:140 - Användaren 5555 stänger av
+  2022-05-27 12:22:51 INFO  MainApp:313 - Programmet startar
+  2022-05-27 12:22:54 INFO  MainApp:326 - Användare väljer att logga in
+  2022-05-27 12:22:56 INFO  MainApp:329 - Användare skriver in ID: 5555
+  2022-05-27 12:22:56 INFO  MainApp:331 - Student inloggning
+  2022-05-27 12:22:56 INFO  MainApp:334 - Användar ID: 5555 fanns
+  2022-05-27 12:22:56 INFO  MainApp:35 - Användaren 5555 är inte avstängd
+  2022-05-27 12:22:56 INFO  MainApp:39 - Användaren 5555 har försenade böcker
+  2022-05-27 12:22:56 INFO  MainApp:47 - Användaren 5555 blir bannad
+  2022-05-27 12:24:15 INFO  MainApp:313 - Programmet startar
+  2022-05-27 12:24:21 INFO  MainApp:347 - Användare väljer att registrera sig
+  2022-05-27 12:24:21 INFO  MainApp:263 - Registrering av ny användare startas
+  2022-05-27 12:24:40 ERROR MainApp:286 - Angivet användare ID: 1111 är upptaget
+  2022-05-27 12:29:36 INFO  MainApp:313 - Programmet startar
+  2022-05-27 12:29:51 INFO  MainApp:347 - Användare väljer att registrera sig
+  2022-05-27 12:29:51 INFO  MainApp:263 - Registrering av ny användare startas
+  2022-05-27 12:30:08 ERROR MainApp:290 - Användare med personnummer: 010524-4735 har redan ett konto
+  2022-05-27 12:30:08 INFO  MainApp:313 - Programmet startar
+  2022-05-27 12:30:13 INFO  MainApp:326 - Användare väljer att logga in
+  2022-05-27 12:30:24 INFO  MainApp:329 - Användare skriver in ID: 1234
+  2022-05-27 12:30:24 INFO  MainApp:331 - Student inloggning
+  2022-05-27 12:30:24 INFO  MainApp:334 - Användar ID: 1234 fanns
+  2022-05-27 12:30:24 INFO  MainApp:35 - Användaren 1234 är inte avstängd
+  2022-05-27 12:30:24 INFO  MainApp:54 - Användaren 1234 loggar in
+  2022-05-27 12:30:27 INFO  MainApp:140 - Användaren 1234 stänger av
+  2022-05-27 12:30:43 INFO  MainApp:313 - Programmet startar
+  2022-05-27 12:30:46 INFO  MainApp:347 - Användare väljer att registrera sig
+  2022-05-27 12:30:46 INFO  MainApp:263 - Registrering av ny användare startas
+  2022-05-27 12:30:59 ERROR MainApp:290 - Användare med personnummer: 010524-4735 har redan ett konto
+  2022-05-27 12:30:59 INFO  MainApp:313 - Programmet startar
+  2022-05-27 12:31:07 INFO  MainApp:350 - Systemet stängs av
+  2022-05-27 12:35:41 INFO  MainApp:311 - Programmet startar
+  2022-05-27 12:40:20 INFO  MainApp:348 - Systemet stängs av
+  2022-05-27 12:40:43 INFO  MainApp:310 - Programmet startar
+  2022-05-27 12:40:45 INFO  MainApp:344 - Användare väljer att registrera sig
+  2022-05-27 12:40:45 INFO  MainApp:257 - Registrering av ny användare startas
+  2022-05-27 12:43:51 INFO  MainApp:310 - Programmet startar
+  2022-05-27 12:43:53 INFO  MainApp:323 - Användare väljer att logga in
+  2022-05-27 12:43:58 INFO  MainApp:326 - Användare skriver in ID: 100000
+  2022-05-27 12:43:58 INFO  MainApp:339 - Användare loggar in som bibliotekarie
+  2022-05-27 12:43:58 INFO  MainApp:144 - Bibliotekarien loggar in
+  2022-05-27 12:44:00 INFO  MainApp:177 - Bibliotekarien söker efter en användare
+  2022-05-27 12:44:01 INFO  MainApp:187 - Bibliotekariens sökta användare visas
+  2022-05-27 12:54:09 INFO  MainApp:328 - Programmet startar
+  2022-05-27 12:54:11 INFO  MainApp:362 - Användare väljer att registrera sig
+  2022-05-27 12:54:11 INFO  MainApp:258 - Registrering av ny användare startas
+  2022-05-27 12:54:44 INFO  MainApp:328 - Programmet startar
+  2022-05-27 12:54:46 INFO  MainApp:362 - Användare väljer att registrera sig
+  2022-05-27 12:54:46 INFO  MainApp:258 - Registrering av ny användare startas
+  2022-05-27 12:55:50 INFO  MainApp:328 - Programmet startar
+  2022-05-27 12:55:53 INFO  MainApp:362 - Användare väljer att registrera sig
+  2022-05-27 12:55:53 INFO  MainApp:258 - Registrering av ny användare startas
+  2022-05-27 12:56:14 INFO  MainApp:311 - Kontot med användar ID: 8161 skapas
+  2022-05-27 12:56:14 INFO  MainApp:31 - Användaren 8161 är inte avstängd
+  2022-05-27 12:56:14 INFO  MainApp:50 - Användaren 8161 loggar in
+  2022-05-27 12:56:17 INFO  MainApp:135 - Användaren 8161 stänger av
+  2022-05-27 12:56:33 INFO  MainApp:328 - Programmet startar
+  2022-05-27 12:56:35 INFO  MainApp:341 - Användare väljer att logga in
+  2022-05-27 12:56:37 INFO  MainApp:344 - Användare skriver in ID: 8161
+  2022-05-27 12:56:37 INFO  MainApp:346 - Student inloggning
+  2022-05-27 12:56:37 INFO  MainApp:349 - Användar ID: 8161 fanns
+  2022-05-27 12:56:37 INFO  MainApp:31 - Användaren 8161 är inte avstängd
+  2022-05-27 12:56:37 INFO  MainApp:50 - Användaren 8161 loggar in
+  2022-05-27 12:56:42 INFO  MainApp:135 - Användaren 8161 stänger av
+  2022-05-27 12:58:00 INFO  MainApp:323 - Programmet startar
+  2022-05-27 12:58:02 INFO  MainApp:357 - Användare väljer att registrera sig
+  2022-05-27 12:58:02 INFO  MainApp:258 - Registrering av ny användare startas
+  2022-05-27 12:58:23 INFO  MainApp:306 - Kontot med användar ID: 5513 skapas
+  2022-05-27 12:58:23 INFO  MainApp:31 - Användaren 5513 är inte avstängd
+  2022-05-27 12:58:23 INFO  MainApp:50 - Användaren 5513 loggar in
+  2022-05-27 12:58:26 INFO  MainApp:135 - Användaren 5513 stänger av
   

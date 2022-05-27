@@ -26,9 +26,7 @@ public class LibraryManager {
 
     }
 
-    public long currentTime() {
-        return System.currentTimeMillis();
-    }
+
 
 
     public boolean checkIfAnyLentBooksAreLate(int userID) throws SQLException {
@@ -36,16 +34,15 @@ public class LibraryManager {
         if(timeOfLoanStamp == null) {
             return false;
         }
-
         long timeOfLoan = timeOfLoanStamp.getTime();
-        Timestamp sysTime = new Timestamp(currentTime()); // ändra här så det är en metod som hämtar tiden, då kan vi mocka den i tester
+        Timestamp sysTime = new Timestamp(store.currentTime()); // ändra här så det är en metod som hämtar tiden, då kan vi mocka den i tester
         long currentTime = sysTime.getTime();
         long diff = currentTime - timeOfLoan;
 
-        if (diff < 300000) {
-            return false;
-        } else {
+        if (diff > 1000) { // ska vara 300000
             return true;
+        } else {
+            return false;
         }
 
     }
@@ -76,17 +73,19 @@ public class LibraryManager {
     }
 
     public boolean checkIfUserShouldBeUnsuspended(int userID) throws SQLException {
-        Timestamp timeOfLoanStamp = store.getUserSuspensionDate(userID);
-        long timeOfLoan = timeOfLoanStamp.getTime();
-        if (timeOfLoan == 0) {
+        Timestamp timeOfSuspensionStamp = store.getUserSuspensionDate(userID);
+
+        if (timeOfSuspensionStamp == null) {
             return false;
         }
-        Timestamp sysTime = new Timestamp(currentTime());
+
+        long timeOfSuspension = timeOfSuspensionStamp.getTime();
+        Timestamp sysTime = new Timestamp(store.currentTime());
         long currentTime = sysTime.getTime();
-        long diff = currentTime - timeOfLoan;
+        long diff = currentTime - timeOfSuspension;
 
 
-        if (diff > 300000) {
+        if (diff > 1000) { // ska vara 300000
             return true;
         } else {
             return false;
@@ -106,18 +105,15 @@ public class LibraryManager {
             throw new UnusableException();
         } else {
 
-            if (currentIDs.contains(userID)) {
+            if (currentPN.contains(personalNumber)) {
                 result = 1;
-                return result;
-            } else if (currentPN.contains(personalNumber)) {
-                result = 2;
                 return result;
             } else if (bannedPN.contains(personalNumber)) {
                 result = 0;
                 return result;
             } else {
                 store.createUser(userID, firstName, lastName, personalNumber, level);
-                result = 3;
+                result = 2;
                 return result;
             }
         }

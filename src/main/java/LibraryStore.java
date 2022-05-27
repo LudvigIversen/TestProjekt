@@ -225,6 +225,15 @@ public class LibraryStore {
                 "jdbc:mysql://127.0.0.1/LibraryApp?useSSL=false",
                 "root", "Luddeiversen1234")) {
 
+            ArrayList<Integer> booksIDs = new ArrayList<Integer>();
+            Integer bID;
+            Statement statement3 = conn.createStatement();
+            ResultSet set2 = statement3.executeQuery("select * from userbooks where UserID=" + userID);
+            while (set2.next()) {
+                bID = set2.getInt("BookID");
+                booksIDs.add(bID);
+            }
+
             Statement statement = conn.createStatement();
             statement.executeUpdate("delete from users where ID='" + userID + "'");
         }
@@ -236,6 +245,19 @@ public class LibraryStore {
         try (Connection conn = DriverManager.getConnection(
                 "jdbc:mysql://127.0.0.1/LibraryApp?useSSL=false",
                 "root", "Luddeiversen1234")) {
+
+            ArrayList<Integer> booksIDs = new ArrayList<Integer>();
+            Integer bID;
+            Statement statement3 = conn.createStatement();
+            ResultSet set2 = statement3.executeQuery("select * from userbooks where UserID=" + userID);
+            while (set2.next()) {
+                bID = set2.getInt("BookID");
+                booksIDs.add(bID);
+            }
+
+            for (int i = 0; i < booksIDs.size(); i++) {
+                returnBook(booksIDs.get(i));
+            }
 
             int ID = 0;
             String fN = "";
@@ -351,6 +373,8 @@ public class LibraryStore {
         }
         return time;
     }
-
+    public long currentTime() {
+        return System.currentTimeMillis();
+    }
 
 }
