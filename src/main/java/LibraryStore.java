@@ -13,7 +13,7 @@ public class LibraryStore implements ILibraryStore {
             ResultSet set = statement.executeQuery("SELECT * FROM books where title='" + title + "' AND available=true" );
 
 
-            while (set.next()) { //använd alltid en "while" när ResultSet ska hanteras
+            while (set.next()) {
                 Book book = new Book();
                 book.setID(set.getInt("ID"));
                 book.setISBN(set.getInt("ISBN"));
@@ -367,6 +367,7 @@ public class LibraryStore implements ILibraryStore {
         }
         return time;
     }
+
     public long currentTime() {
         return System.currentTimeMillis();
     }

@@ -281,4 +281,97 @@
   2022-05-27 13:05:29 ERROR MainApp:348 - Användare ID: 2930 fanns inte
   2022-05-27 13:05:29 INFO  MainApp:323 - Programmet startar
   2022-05-27 13:05:31 INFO  MainApp:360 - Systemet stängs av
+  2022-05-30 11:42:53 INFO  MainApp:323 - Programmet startar
+  2022-05-30 11:43:00 INFO  MainApp:357 - Användare väljer att registrera sig
+  2022-05-30 11:43:00 INFO  MainApp:258 - Registrering av ny användare startas
+  2022-05-30 11:43:33 INFO  MainApp:306 - Kontot med användar ID: 4060 skapas
+  2022-05-30 11:43:34 INFO  MainApp:31 - Användaren 4060 är inte avstängd
+  2022-05-30 11:43:34 INFO  MainApp:50 - Användaren 4060 loggar in
+  2022-05-30 11:43:45 INFO  MainApp:135 - Användaren 4060 stänger av
+  2022-05-30 11:43:51 INFO  MainApp:323 - Programmet startar
+  2022-05-30 11:43:53 INFO  MainApp:336 - Användare väljer att logga in
+  2022-05-30 11:43:57 INFO  MainApp:339 - Användare skriver in ID: 4060
+  2022-05-30 11:43:57 INFO  MainApp:341 - Student inloggning
+  2022-05-30 11:43:57 INFO  MainApp:344 - Användar ID: 4060 fanns
+  2022-05-30 11:43:57 INFO  MainApp:31 - Användaren 4060 är inte avstängd
+  2022-05-30 11:43:57 INFO  MainApp:50 - Användaren 4060 loggar in
+  2022-05-30 11:44:04 INFO  MainApp:65 - Användaren 4060 försöker låna böcker
+  2022-05-30 11:44:08 INFO  MainApp:68 - Användaren 4060 söker efter boken: Lasten
+  2022-05-30 11:44:21 INFO  MainApp:91 - Användaren 4060 lånar boken: 10
+  2022-05-30 11:44:24 INFO  MainApp:65 - Användaren 4060 försöker låna böcker
+  2022-05-30 11:44:26 INFO  MainApp:68 - Användaren 4060 söker efter boken: Lasten
+  2022-05-30 11:44:32 INFO  MainApp:96 - Användaren 4060 vill lämna tillbaka böcker
+  2022-05-30 11:44:36 INFO  MainApp:113 - Användaren 4060 lämnar tillbaka 10
+  2022-05-30 11:44:38 INFO  MainApp:65 - Användaren 4060 försöker låna böcker
+  2022-05-30 11:44:40 INFO  MainApp:68 - Användaren 4060 söker efter boken: Lasten
+  2022-05-30 11:44:42 INFO  MainApp:91 - Användaren 4060 lånar boken: 12
+  2022-05-30 11:44:48 INFO  MainApp:135 - Användaren 4060 stänger av
+  2022-05-30 11:44:52 INFO  MainApp:323 - Programmet startar
+  2022-05-30 11:44:56 INFO  MainApp:336 - Användare väljer att logga in
+  2022-05-30 11:44:58 INFO  MainApp:339 - Användare skriver in ID: 4060
+  2022-05-30 11:44:58 INFO  MainApp:341 - Student inloggning
+  2022-05-30 11:44:58 INFO  MainApp:344 - Användar ID: 4060 fanns
+  2022-05-30 11:44:58 INFO  MainApp:31 - Användaren 4060 är inte avstängd
+  2022-05-30 11:44:58 INFO  MainApp:35 - Användaren 4060 har försenade böcker
+  2022-05-30 11:44:58 INFO  MainApp:38 - Användaren 4060 blir avstängd
+  2022-05-30 11:45:04 INFO  MainApp:323 - Programmet startar
+  2022-05-30 11:45:07 INFO  MainApp:336 - Användare väljer att logga in
+  2022-05-30 11:45:10 INFO  MainApp:339 - Användare skriver in ID: 4060
+  2022-05-30 11:45:10 INFO  MainApp:341 - Student inloggning
+  2022-05-30 11:45:11 INFO  MainApp:344 - Användar ID: 4060 fanns
+  2022-05-30 11:45:11 INFO  MainApp:19 - Användaren 4060 är avstängd
+  2022-05-30 11:45:11 INFO  MainApp:23 - Användaren 4060 är inte längre avstängd
+  2022-05-30 11:45:11 INFO  MainApp:31 - Användaren 4060 är inte avstängd
+  2022-05-30 11:45:11 INFO  MainApp:50 - Användaren 4060 loggar in
+  2022-05-30 11:45:17 INFO  MainApp:96 - Användaren 4060 vill lämna tillbaka böcker
+  2022-05-30 11:45:17 INFO  MainApp:99 - Användaren 4060 kan inte returnera böcker då det inte finns några lånade
+  2022-05-30 11:45:25 INFO  MainApp:65 - Användaren 4060 försöker låna böcker
+  2022-05-30 11:45:30 INFO  MainApp:68 - Användaren 4060 söker efter boken: Paradiset
+  2022-05-30 11:45:39 INFO  MainApp:91 - Användaren 4060 lånar boken: 23
+  2022-05-30 11:45:43 INFO  MainApp:135 - Användaren 4060 stänger av
+  2022-05-30 11:45:48 INFO  MainApp:323 - Programmet startar
+  2022-05-30 11:45:49 INFO  MainApp:336 - Användare väljer att logga in
+  2022-05-30 11:45:51 INFO  MainApp:339 - Användare skriver in ID: 4060
+  2022-05-30 11:45:51 INFO  MainApp:341 - Student inloggning
+  2022-05-30 11:45:52 INFO  MainApp:344 - Användar ID: 4060 fanns
+  2022-05-30 11:45:52 INFO  MainApp:31 - Användaren 4060 är inte avstängd
+  2022-05-30 11:45:52 INFO  MainApp:35 - Användaren 4060 har försenade böcker
+  2022-05-30 11:45:52 INFO  MainApp:38 - Användaren 4060 blir avstängd
+  2022-05-30 11:45:57 INFO  MainApp:323 - Programmet startar
+  2022-05-30 11:45:58 INFO  MainApp:336 - Användare väljer att logga in
+  2022-05-30 11:46:00 INFO  MainApp:339 - Användare skriver in ID: 4060
+  2022-05-30 11:46:00 INFO  MainApp:341 - Student inloggning
+  2022-05-30 11:46:01 INFO  MainApp:344 - Användar ID: 4060 fanns
+  2022-05-30 11:46:01 INFO  MainApp:19 - Användaren 4060 är avstängd
+  2022-05-30 11:46:01 INFO  MainApp:23 - Användaren 4060 är inte längre avstängd
+  2022-05-30 11:46:01 INFO  MainApp:31 - Användaren 4060 är inte avstängd
+  2022-05-30 11:46:01 INFO  MainApp:50 - Användaren 4060 loggar in
+  2022-05-30 11:46:01 INFO  MainApp:65 - Användaren 4060 försöker låna böcker
+  2022-05-30 11:46:02 INFO  MainApp:68 - Användaren 4060 söker efter boken: Lasten
+  2022-05-30 11:46:03 INFO  MainApp:91 - Användaren 4060 lånar boken: 11
+  2022-05-30 11:46:04 INFO  MainApp:135 - Användaren 4060 stänger av
+  2022-05-30 11:46:11 INFO  MainApp:323 - Programmet startar
+  2022-05-30 11:46:19 INFO  MainApp:336 - Användare väljer att logga in
+  2022-05-30 11:46:21 INFO  MainApp:339 - Användare skriver in ID: 100000
+  2022-05-30 11:46:21 INFO  MainApp:352 - Användare loggar in som bibliotekarie
+  2022-05-30 11:46:21 INFO  MainApp:145 - Bibliotekarien loggar in
+  2022-05-30 11:46:28 INFO  MainApp:156 - Bibliotikarien söker efter bok med ISBN
+  2022-05-30 11:46:38 INFO  MainApp:160 - Bibliotekarien söker med ISBN: 359622
+  2022-05-30 11:46:39 INFO  MainApp:167 - Resultat för 359622visas
+  2022-05-30 11:46:45 INFO  MainApp:178 - Bibliotekarien söker efter en användare
+  2022-05-30 11:46:47 INFO  MainApp:188 - Bibliotekariens sökta användare visas
+  2022-05-30 11:47:06 INFO  MainApp:217 - Bibliotekarien förösker stänga av en användare
+  2022-05-30 11:47:10 INFO  MainApp:222 - Bibliotekarien försöker stänga av användaren: 4060
+  2022-05-30 11:47:10 INFO  MainApp:235 - 4060 är nu bannad
+  2022-05-30 11:47:21 INFO  MainApp:323 - Programmet startar
+  2022-05-30 11:47:29 INFO  MainApp:336 - Användare väljer att logga in
+  2022-05-30 11:47:31 INFO  MainApp:339 - Användare skriver in ID: 4060
+  2022-05-30 11:47:31 INFO  MainApp:341 - Student inloggning
+  2022-05-30 11:47:31 ERROR MainApp:348 - Användare ID: 4060 fanns inte
+  2022-05-30 11:47:31 INFO  MainApp:323 - Programmet startar
+  2022-05-30 11:47:48 INFO  MainApp:357 - Användare väljer att registrera sig
+  2022-05-30 11:47:48 INFO  MainApp:258 - Registrering av ny användare startas
+  2022-05-30 11:48:07 INFO  MainApp:310 - Anänvdaren med personnummret: 556644-3322 är en bannad användare
+  2022-05-30 11:48:07 INFO  MainApp:323 - Programmet startar
+  2022-05-30 11:48:14 INFO  MainApp:360 - Systemet stängs av
   
